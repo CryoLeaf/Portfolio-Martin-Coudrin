@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Martin Coudrin</title>
+    <meta name="#" content="#">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container-fluid">
+            <nav>
+               
+                <div id="menuFerme" class="auDessus" onclick="fermerMenuFerme()">
+                    <img id="imgMenuFerme" src="Image/Menu_ferme_gris@4x-8.png">
+                </div>
+
+                <div id="menuOuvert" class="auDessus invisible">
+
+                    <div class="row">
+                        <div id="menuOuvertTout" class="col-3">
+                            <div id="imageCroix" onclick="fermerMenuOuvert()"><img class="elementmMenu" id="imgMenuOuvert" src="Image/Menu_ouvert_blanc@4x-8.png"></div>
+                            <a href="#ancrePresentation" id="menuPresentation" class="elementMenu" onclick="fermerMenuOuvert()">
+                                Présentation
+                            </a>
+                            <a href="#ancreJeuVideo" id="menuJeuVideo" class="elementMenu" onclick="fermerMenuOuvert()">
+                            Jeux Vidéos
+                            </a>
+                            <a href="#ancreJeuSociete" id="menuJeuSociete" class="elementMenu" onclick="fermerMenuOuvert()">
+                            Jeux de Société
+                            </a>
+                            <a href="#ancreEcriture" id="menuEcriture" class="elementMenu" onclick="fermerMenuOuvert()">
+                                Écriture
+                                </a>
+                            <a href="#ancreContacts" id="menuContacts" class="elementMenu" onclick="fermerMenuOuvert()">
+                                Contacts
+                                </a>
+                        </div>
+                        <div class="col-9"></div>
+
+                    </div>
+
+                </div>
+
+            </nav>
+            <div id="entete" class="row">
+                <div class="col-lg-12">
+                    <h2 id="ancrePresentation">Martin Coudrin</h2>
+                    <h1>Game & Level<br>Designer</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="fluid-container">
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8">
+                    <p id="phraseAccroche"><span>"</span>J'aime créer des jeux à l'<span>histoire prenante</span> et aux mécaniques de gameplay <span>porteuses de sens</span>, sur des thèmes tels que la <span>discrimination</span> et l'<span>environnement</span>.<span>"</span></p>
+                </div>
+                <div class="col-lg-2"></div>
+
+            </div>
+
+            <div id="rowPresentation" class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-9">
+                    <div id="moiSansAccroche" class="row">
+                        <div id="" class="col-lg-7 align-self-center">
+                            <p id="texteAccroche">Bonjour à vous et bienvenue sur mon <span>portfolio</span> ! <br/> Je m’appelle <span>Martin Coudrin</span> et je suis <span>Game et Level Designer.</span>
+                                <br/><br/> Je vous invite à découvrir ci-dessous les projets personnels et professionnels que j’ai réalisé ces derniers années. Ils sont classés dans l’<span>ordre anti-chronologique</span> et <span>par thèmes</span> (Jeux vidéos, Jeux de société puis Écriture).
+                                
+                                <br/><br/> Bonne visite !</p>
+                        </div>
+
+                        <div id="divMoi" class="col-lg-5"> <img id="Moi" src="Image/Autoportrait_1@4x-8.png"> </div>
+                    </div>
+
+
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+
+
+            <div id="titreVideoGame">
+                <img id="logoVideoGame" src="Image/Logo/Video_Game@3x-8.png">
+                <div id="jeuvideo">
+                    <h1 id="ancreJeuVideo" class="troisTitres">Jeux Vidéo</h1>
+                </div>
+                <div class="shape" id="shapeVideoGame"></div>
+            </div>
+
+            <div class="container machin">
+
+                <div id="ArcheologuesAn3000" class="row">
+                    <h2 class="col-lg-12 SousTitre">1 - Archéologues des Temps Modernes</h2>
+                    <div class="row">
+                        <div class="col-lg-8" id="TexteArcheologue">
+                            <h4 class="blue">Pitch</h4>
+                            <p>L’<span>Effondrement</span> eut lieu durant la première moitié du XXIème siècle. Les sociétés humaines, mal préparées, ne purent résister au <span>changement climatique</span>, à la <span>fonte des glaces</span> et à la <span>pénurie de ressources</span><br/><br/>Mille ans plus tard, les humains sont parvenus à reconstruire des sociétés plus sobres, plus locales et beaucoup moins technologiques.<br/>Dans ce <span>jeu à interface</span>, incarnez Aaron, le <span>chef d’une guilde d’archéologues</span> fraîchement créée. Les habitants de votre communauté se posent des questions sur l’ancien monde, auxquelles vous pourrez répondre en <span>envoyant les membres de votre guilde chercher des objets</span>, informations et autres vestiges.<br/><span>Apprenez à connaître vos collègues</span> pour créer des équipes efficaces et les envoyer sur le bon site.<br/><br/>L’Effondrement est peut-être inévitable, mais le monde d’après n’est pas forcément à craindre pour autant.</p>
+                            <h4 class="blue">Contexte</h4>
+                            <p>- Jeu réalisé en <span>4 mois</span>, de mai à août 2020…<br/>- … en <span>binôme</span>…<br/>- … sur <span>Unity</span>…<br/>- … dans le cadre de la <span>Licence Professionnelle Game et Level Design</span>.<br/>- J’ai occupé seul le poste de <span>Graphiste</span>, et j'ai partagé avec mon binôme les postes de <span>Game et Level Designe, Rational Designer, Narrative Designer</span> et <span>Sound Designer</span>.<br/><br/>Ce projet a été mis en place pour pallier à l'impossibilité de trouver un stage durant la crise sanitaire.<br/><br/>Le jeu est disponible en téléchargement <a href="https://valleix-martin.itch.io/modern-times-archeologist">ici</a> sur Itch.io.</p>
+                        </div>
+
+
+                        <div class="col-lg-4 align-self-center DivImage" id="DivImageArcheologue"><img id="ImageArcheologue" src="Image/Arch%C3%A9ologues_de_lan_3000.png"></div>
+                    </div>
+
+                </div>
+
+                <div id="PFE" class="row">
+                    <h2 class="col-lg-12 SousTitre">2 - SnowTale</h2>
+                    <div class="row">
+                        <div class="col-lg-8" id="TextePFE">
+                            <h4 class="blue">Pitch</h4>
+                            <p>Dans ce jeu en <span>2D isométrique</span>, vous incarnez une <span>petite lueur</span> évoluant dans un univers enneigé et éthéré. Votre but est de <span>protéger un enfant du froid</span>, des loups et autres dangers de ce monde hostile <span>en le réchauffant et en faisant fondre les obstacles</span>.<br/>Faites attention à l’énergie de la lueur, et ne laissez pas l’enfant s’endormir.</p>
+                            <h4 class="blue">Contexte</h4>
+                            <p>- Jeu réalisé en <span>7 mois</span>, de janvier à août 2020…<br/>- … par une équipe de <span>7 personnes</span>…<br/>- … sur <span>Unity</span>…<br/>- … en tant que <span>projet de fin d’études</span> de la Licence Professionnelle Game et Level Design.<br/>- J’ai occupé les postes de <span>Game et Level Designer, Level Builder</span> et <span>Chef de Projet</span>.<br/><br/>SnowTale a été pensé pour respecter les préceptes de la <span>CareWave</span>.<br/>Hélas, le projet a grandement souffert de la crise sanitaire.</p>
+                        </div>
+
+
+                        <div class="col-lg-4 align-self-center DivImage" id="DivImagePFE"><img id="ImagePFE" src="Image/PFE2.png"></div>
+
+                    </div>
+                </div>
+
+                <div id="TempleKaji" class="row">
+                    <h2 class="col-lg-12 SousTitre">3 - Le Temple de Kaji</h2>
+                    <div class="row">
+                        <div class="col-lg-8" id="TexteTempleKaji">
+                            <h4 class="blue">Pitch</h4>
+                            <p>Dans un monde médiéval où des démons invulnérables chassent la nuit, les humains ne doivent leur survie qu'à une chose : les <span>runes</span>. Dessinés sur certaines surfaces, ces symboles magiques <span>repoussent les démons, mais ne peuvent les blesser</span>.<br/>Dans ce <span>jeu d’exploration en 3D</span>, vous incarnez <span>un aventurier qui explore des ruines dans le désert</span>. Il espère y trouver l'épée de Kaji, une arme gravée de runes oubliées qui permettent de tuer les démons.<br/>À travers un <span>gameplay d'infiltration et de puzzle</span>, le joueur doit donc atteindre la tombe de Kaji <span>en évitant</span> les démons, ou <span>en les bloquant</span> grâce aux runes.</p>
+                            <h4 class="blue">Contexte</h4>
+                            <p>- Jeu réalisé en <span>2 semaines</span>, en décembre 2019…<br/>-… en <span>solo</span>…<br/>-… sur <span>Unreal Engine</span>…<br/>-… dans le cadre de la <span>Licence Professionnelle Game et Level Design</span>.<br/>- Le projet était axé sur le <span>game et level design</span>, mais j’ai également occupé les postes de <span>Level Builder, Programmeur et Sound Designer</span>.<br/><br/>Le concept m’est venu en tête suite à ma lecture du livre <span class="Italique">L’Homme-Rune</span>, de Peter V.Brett.<br/><br/>Découvrez le jeu via une vidéo Walkthrought en cliquant <a href="https://drive.google.com/drive/folders/1K1Cb9l8btC0LglxCj716s6_hWR9Kq2aZ">ici</a>.</p>
+                        </div>
+
+
+                        <div class="col-lg-4 align-self-center DivImage" id="DivImageTempleKaji"><img id="ImageTempleKaji" src="Image/DesertKrasien.png"></div>
+                    </div>
+
+
+                </div>
+
+                <div id="BorrowedTime" class="row">
+                    <h2 class="col-lg-12 SousTitre">4 - The Borrowed Time, a tale of scales</h2>
+                    <div class="row">
+                        <div class="col-lg-8" id="TexteBorrowedTime">
+                            <h4 class="blue">Pitch</h4>
+                            <p>The Borrowed Time est un <span>side scroller 2D</span> dans lequel vous incarnez <span>une créature aviaire capable de ralentir le temps</span>.<br/>Mais s'il le fait trop longtemps, le temps s'arrête et c'est un game over.<br/>La créature voyage sur le corps d'un gigantesque dragon agonisant. Son but est d'atteindre sa tête afin de lui <span>offrir un dernier adieu </span>avant son trépas. </p>
+                            <h4 class="blue">Contexte</h4>
+                            <p>- Jeu réalisé en <span>2 jours</span>, en novembre 2019…<br/>-… par une équipe de <span>7 personnes</span>…<br/>-… sur <span>Unity</span>…<br/>-… durant une <span>Game Jam</span>. Le thème imposé par la Game Jam était le proverbe <span>« Ne craignez pas de ralentir, craignez l’arrêt »</span>.<br/>- J’ai occupé le poste de <span>Level Designer</span>.<br/><br/>Nous nous sommes mal organisés, et nous avons rencontré de grosses difficultés pour coordonner la programmation et les graphismes.</p>
+                        </div>
+
+
+                        <div class="col-lg-4 align-self-center DivImage" id="DivImageBorrowedTime"><img id="ImageBorrowedTime" src="Image/BorrowedTime.jpg"></div>
+                    </div>
+
+
+                </div>
+
+                <div id="Fallandaforad" class="row">
+                    <h2 class="col-lg-12 SousTitre">5 - Fallandaforad</h2>
+                    <div class="row">
+                        <div class="col-lg-8" id="TexteFallandaforad">
+                            <h4 class="blue">Pitch</h4>
+                            <p>Ce <span>rogue-like 2D</span> se joue à 2 joueurs. Le premier incarne une <span>guerrière nordique</span> qui doit <span>voler un artefact</span> dans le donjon de Fallandaforad. Elle doit prendre garde aux monstres et aux pièges.<br/>Le second joueur contrôle le <span>maître du donjon</span> qui <span>invoque des monstres</span> pour la gêner dans sa progression.</p>
+                            <h4 class="blue">Contexte</h4>
+                            <p>- Jeu réalisé en <span>4 jours</span>, en novembre 2019…<br/>- … par une équipe de <span>6 personnes</span>…<br/>- … sur <span>Unity</span>…<br/>-… lors d’un « Workshop 2D » dans le cadre de la <span>Licence Professionnelle Game et Level Design</span>.<br/>- J’ai occupé le poste de <span>Game et Level Designer, et Level Builder</span>.</p>
+                        </div>
+
+
+                        <div class="col-lg-4 align-self-center DivImage" id="DivImageFallandaforad"><img id="ImageFallandaforad" src="Image/Falladaforad.png"></div>
+                    </div>
+
+
+                </div>
+
+                <div id="Javascript" class="row">
+                    <h2 class="col-lg-12 SousTitre">6 - Jeu en Javascript</h2>
+                    <div class="row">
+                        <div class="col-lg-8" id="TexteJavascript">
+                            <h4 class="blue">Pitch</h4>
+                            <p>Dans ce <span>jeu de gestion</span>, vous êtes <span>à la tête d'une cité</span> et votre but est de faire <span>rentrer cette dernière dans l'Histoire</span>.<br/>Pour cela, vous devez gérer vos marchands et vos ouvriers pour <span>accumuler les ressources nécessaires au changement d'âge</span>. Néanmoins, ne négligez pas vos soldats si vous ne voulez pas voir votre cité rasée par les ennemis !</p>
+                            <h4 class="blue">Contexte</h4>
+                            <p>- Jeu réalisé en <span>1 mois</span>, en mars 2019…<br/>- … en <span>solo</span>…<br/>- … en <span>Html, Css et JavaScript</span>…<br/>- … dans la cadre du <span>DUT MMI</span>, lors d’un projet de « Logiciel Interactif ». J’ai saisi l’occasion d’en faire un jeu vidéo.<br/><br/>Étant pressé par le temps, et la notation étant surtout axée sur la programmation, je n'ai pas eu le temps de donner un rendu esthétique au jeu.<br/><br/>Cliquez <a href="Jeu/Jeu_Js.html">ici</a> pour jouer à ce jeu dans votre navigateur (préférez Firefox pour une ergonomie optimale).</p>
+                        </div>
+
+
+                        <div class="col-lg-4 align-self-center DivImage" id="DivImageJavascript"><img id="ImageJavascript" src="Image/JeuJs.png"></div>
+                    </div>
+
+
+                </div>
+
+                <div id="FatesWays" class="row">
+                    <h2 class="col-lg-12 SousTitre">7 - Fate's Ways</h2>
+                    <div class="row">
+                        <div class="col-lg-8" id="TexteFatesWays">
+                            <h4 class="blue">Pitch</h4>
+                            <p>Fate's Ways est un <span>jeu narratif</span> dans lequel vous devez rentrer chez vous à pied après être tombé en panne sur la route.<br/>Les choix sont parfois entrecoupés de scènes en <span>2D isométrique</span> dans lesquelles vous devez <span>traverser un parcours en évitant les ennemis</span>. </p>
+                            <h4 class="blue">Contexte</h4>
+                            <p>- Jeu réalisé en <span>5 mois</span>, de février à juin 2017…<br/>- … par une équipe de <span>4 personnes</span>…<br/>- … en <span>Python</span>…<br/>- … dans le cadre de l’<span>option ISN pour le Baccalauréat Scientifique</span>.<br/>- J’ai occupé les postes de <span>Game et Level Designer, Narrative Designer</span> et <span>Chef de Projet</span>.</p>
+                        </div>
+
+
+                        <div class="col-lg-4 align-self-center DivImage" id="DivImageFatesWays"><img id="ImageFatesWays" src="Image/Fates'ways.png"></div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+            <div id="titreBoardGame">
+                <img id="logoBoardGame" src="Image/Logo/Dice@3x-8.png">
+                <div id="jeusociete">
+                    <h1 id="ancreJeuSociete" class="troisTitres">Jeux de Société</h1>
+                </div>
+                <div class="shape" id="shapeBoardGame"></div>
+            </div>
+
+            <div class="container machin">
+
+                <div id="OchitaKamigami" class="row">
+                    <h2 class="col-lg-12 SousTitre">1 - Ochita Kamigami</h2>
+                    <div class="row">
+                        <div class="col-lg-8" id="TexteOchitaKamigami">
+                            <h4 class="blue">Pitch</h4>
+                            <p><span>Jouable à 2 ou à 4</span>, Ochita Kamigami est un <span>jeu de stratégie collaboratif</span>.<br/><br/>Dans un monde où l’immortalité a rendu les esprits et les dieux complètement fous et sanguinaires, les humains ont pris la décision de les combattre et de se libérer de leur joug.<br/>Les joueurs incarnent des <span>artistes martiaux</span> maîtrisant un élément (feu, eau, terre et air) et ayant pour objectif de <span>s’aventurer dans le royaume des dieux afin de les vaincre</span>.<br/><br/>Ils devront pour cela <span>traverser 3 donjons</span> dans un <span>temps limité</span> en <span>combattant des monstres</span> aux compétences variés et en accumulant des objets magiques.<br/>Lors des combats, les joueurs peuvent se battre à <span>coups de poing et de pied, méditer</span> pour accumuler du Ch’i, ou encore dépenser ce Ch’i pour lancer de <span>puissantes techniques</span> propres à leur élément.<br/><br/>Mais il ne faudra pas traîner trop longtemps dans les donjons, car ces derniers absorbent l’énergie vitale des humains lorsque leur temps est écoulé… </p>
+                            <h4 class="blue">Contexte</h4>
+                            <p>- Jeu réalisé en <span>4 mois</span>, de septembre à décembre 2020…<br/>- … en <span>solo</span>…<br/>- … durant mon <span>temps libre</span>.<br/><br/>J’ai <span>inventé les règles, dessiné et fabriqué le jeu moi-même</span>.<br/>Mes inspirations ont été la <span>religion shintoïste</span>, la série animée <span class="Italique">Avatar The Last Airbender</span> ainsi que certaines mécaniques du jeu de Nintendo Switch <span class="Italique">Octopath Traveler</span>.<br/></p>
+                        </div>
+
+
+                        <div class="col-lg-4 align-self-center DivImage" id="DivImageOchitaKamigami"><img id="ImageOchitaKamigami" src="Image/Ochitakami@4x-8.png"></div>
+                    </div>
+
+
+                </div>
+
+                <div id="TimelineInegalite" class="row">
+                    <h2 class="col-lg-12 SousTitre">2 - Timeline Inégalités Homme-Femme</h2>
+                    <div class="row">
+                        <div class="col-lg-8" id="TexteTimelineInegalite">
+                            <h4 class="blue">Pitch</h4>
+                            <p><span>Jouable de 2 à 8</span>, Timeline Inégalités est un <span>jeu collaboratif de connaissance et de déduction</span>.<br/><br/><span class="Italique">Timeline</span> est un jeu où les joueurs doivent <span>placer des objets</span> sur une frise chronologique, en <span>estimant à quelle date</span> l'objet a été inventé. L'objectif n'est cependant pas de deviner la date exacte de création de l'objet, mais de déterminer si elle est antérieure ou postérieure aux objets déjà placés (ainsi, plus la partie dure longtemps, plus les objets posés sur la frise chronologique sont nombreux, et il est alors plus compliqué de trouver où placer les objets restants).<br/><br/>Dans cette version du jeu, <span>les joueurs sont tous dans la même équipe</span>. Ils se concertent donc avant de poser une carte, et la partie est perdue au bout d’un certain nombre d’erreurs. <span>Les objets lambda ont été remplacés par des publicités</span>, et les joueurs doivent déterminer leur date de publication.</p>
+                            <h4 class="blue">Contexte</h4>
+                            <p>- Jeu réalisé en <span>3 mois</span>, de novembre 2020 à janvier 2021…<br/>- … en <span>solo</span>… <br/>- … dans le cadre de mon <span>Service Civique</span>.<br/><br/>Ma mission était de <span>créer un jeu de société qui sensibilise les joueurs aux inégalités Homme-Femme</span> et leur montre qu'<span>encore aujourd'hui ces inégalités sont partie intégrante de notre quotidien</span>.<br/>Ce jeu sera utilisé par des associations en tant qu’<span>outil d’éducation populaire</span>.<br/>J’ai repris le concept du jeu <span class="Italique">Timeline</span> en remplaçant les événements et objets lambdas par des <span>publicités sexistes</span> européennes et américaines. Mon objectif est que les joueurs se rendent compte de l’évolution des mentalités de la fin du XIXème siècle à nos jours, et du chemin qu’il reste à parcourir pour faire cesser ces inégalités. </p>
+                        </div>
+
+                        <div class="col-lg-4 align-self-center DivImage" id="DivImageTimelineInegalite"><img id="ImageTimelineInegalite" src="Image/Timeline@4x-8.png"></div>
+                    </div>
+
+
+                </div>
+
+                <div id="Decroissance" class="row">
+                    <h2 class="col-lg-12 SousTitre">3 - Décroissance</h2>
+                    <div class="row">
+                        <div class="col-lg-8" id="TexteDecroissance">
+                            <h4 class="blue">Pitch</h4>
+                            <p><span>Jouable de 2 à 4 personnes</span>, <span class="Italique">Décroissance</span> est un jeu de <span>stratégie et collaboration</span> dans lequel les joueurs incarnent des <span>survivants de l'Effondrement</span>. Leur but est de <span>réduire la pollution</span>.<br/> Ils possèdent une technologie efficace mais fortement polluante, vestiges de l’ancien temps, et qui provoque des catastrophes climatiques meurtrières. <br/> Afin de stopper ces cataclysmes, les survivants doivent <span>collaborer pour récolter les ressources</span> nécessaires à la <span>construction de technologies non polluantes</span> qui remplaceront les anciennes.<br/> Attention néanmoins, car les nouvelles technologies seront moins efficaces ! </p>
+                            <h4 class="blue">Contexte</h4>
+                            <p>- Jeu réalisé en <span>une semaine</span>, en octobre 2019 …<br/>- … par une équipe de <span>4 personnes</span>…<br/>- … dans le cadre de la <span>Licence Professionnelle Game et Level Design</span>.<br/><br/> Notre jeu devait transmettre un message concernant un sujet d’actualité. Mon groupe et moi avons choisi le <span>Changement Climatique</span>.<br/><br/>Découvrez les règles du jeu <a href="https://drive.google.com/drive/folders/1K1Cb9l8btC0LglxCj716s6_hWR9Kq2aZ">ici</a>.</p>
+
+                        </div>
+
+
+                        <div class="col-lg-4 align-self-center DivImage" id="DivImageDecroissance"><img id="ImageDecroissance" src="Image/d%C3%A9croissance.png"></div>
+                    </div>
+
+
+                </div>
+
+                <div id="Mercantile" class="row">
+                    <h2 class="col-lg-12 SousTitre">4 - Mercant'île</h2>
+                    <div class="row">
+                        <div class="col-lg-8" id="TexteMercantile">
+                            <h4 class="blue">Pitch</h4>
+                            <p><span class="Italique">Mercant’île</span> un jeu de société pour <span>2 à 6 personnes</span> dans lequel les joueurs incarnent des <span>marchands itinérants</span>. Ils <span>voyagent de ville en ville</span> avec leur chariot, et <span>achètent puis revendent des marchandises</span> afin de devenir le commerçant <span>le plus riche</span> de l'île.<br/>Néanmoins, <span>les prix varient très vite</span>, et les joueurs devront faire face aux bandits et aux intempéries durant leurs pérégrinations.<br/>Les plus chanceux recevront l'aide d'étranges voyageurs aux compétences mystiques... </p>
+                            <h4 class="blue">Contexte</h4>
+                            <p>- Jeu réalisé en <span>quelques mois, en 2018</span>…<br/>- … en <span>solo</span>…<br/>- … durant mon <span>temps libre</span>.<br/><br/>J’ai <span>inventé les règles, dessiné et fabriqué le jeu moi-même</span>.<br/>Le concept m’est venu en tête suite à ma lecture du livre <span class="Italique">Spice and Wolf</span>, d’Isuna Hasekura.<br/><br/>Découvrez les règles du jeu <a href="https://drive.google.com/drive/folders/1K1Cb9l8btC0LglxCj716s6_hWR9Kq2aZ">ici</a>.</p>
+                        </div>
+
+
+                        <div class="col-lg-4 align-self-center DivImage" id="DivImageMercantile"><img id="ImageMercantile" src="Image/Mercant'%C3%AEle-8.png"></div>
+                    </div>
+
+
+                </div>
+
+                <div id="Echecs" class="row">
+                    <h2 class="col-lg-12 SousTitre">5 - Échecs Royaux</h2>
+                    <div class="row">
+                        <div class="col-lg-8" id="TexteEchecs">
+                            <h4 class="blue">Pitch</h4>
+                            <p><span class="Italique">Échecs Royaux</span> est un <span>jeu de stratégie</span> au tour par tour pour <span>2 joueurs</span>, dans un univers médiéval-fantastique.<br/>Un joueur incarne <span>le défenseur et doit protéger son roi</span>, tandis que l'autre joue <span>l'assaillant qui tente de tuer le roi</span> avant la fin du temps imparti.<br/>Pour ce faire, chacun devra <span>placer astucieusement ses unités, tirer parti des faiblesses adverses</span> et s'emparer des cases conférant des pouvoirs spéciaux.<br/>Des <span>héros légendaires</span> aux pouvoirs uniques prendront également part au combat, renversant le cours de la bataille... </p>
+                            <h4 class="blue">Contexte</h4>
+                            <p>- Jeu réalisé en <span>3 mois</span>, en 2017…<br/>- … en <span>solo</span>…<br/>- … durant mon <span>temps libre</span>.<br/><br/>J’ai <span>inventé les règles, dessiné et fabriqué le jeu moi-même</span>.<br/>Je me suis inspiré d’une scène du livre <span class="Italique">L’Apprenti D’Araluen</span>, de John Flanagan, et de la licence de jeux vidéos <span class="Italique">Fire Emblem</span>.<br/><br/>Découvrez les règles du jeu <a href="https://drive.google.com/drive/folders/1K1Cb9l8btC0LglxCj716s6_hWR9Kq2aZ">ici</a>.</p>
+                        </div>
+
+                        <div class="col-lg-4 align-self-center DivImage" id="DivImageEchecs"><img id="ImageEchecs" src="Image/%C3%89checs_Royaux-8.png"></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="titreFilm">
+                <img id="logoFilm" src="Image/Plume@4x-8.png">
+                <div id="film">
+                    <h1 id="ancreEcriture" class="troisTitres">Écriture</h1>
+                </div>
+                <div class="shape" id="shapeFilm"></div>
+            </div>
+
+            <div class="container machin">
+
+                <div id="Fanfic" class="row">
+                    <h2 class="col-lg-12 SousTitre">1 - Fanfictions dans l'univers Pokemon</h2>
+                    <div class="row">
+                        <div class="col-lg-8" id="TexteFanfic">
+                            <h4 class="blue">1. On lui dit ou pas ?</h4>
+                            <p>Du haut de ses 7 ans et demi, Lou-Anne commence à se poser des questions sur le Père Noël. Comment peut-il distribuer autant de cadeaux en une seule nuit ? Comment fait-il pour voler ? Possède-t-il des pokemons ? EST-IL un pokemon ?!<br/>Accompagnée par son fidèle Crabicoque, elle va alors mettre au point un plan pour découvrir son identité…<br/><br/>J’ai écrit ce One-Shot en <span>une semaine</span>, en décembre 2020, à l’occasion du <span>Calendrier de l’Avent du site <span class="Italique">Pokebip</span></span>. Les auteurs devaient se mobiliser pour écrire une histoire de Noël par jour durant le mois de décembre, sur le <span>thème des cadeaux</span>.</p>
+
+                            <h4 class="blue">2. Le Génie des Objets</h4>
+                            <p>Né dans une famille riche, Dany est un jeune homme qui rêve de devenir le meilleur dresseur. Ses pokemons sont déjà très forts, et il peut compter sur la fortune familiale pour leur offrir le meilleur entraînement qui soit.<br/>Cependant, Dany possède de gros défauts. Il est homophobe, sexiste et profondément égoïste, ce qui crée de la distance et des tensions avec ses pokemons.<br/>Saura-t-il se remettre en question et acquérir la maturité nécessaire pour atteindre son rêve ?<br/><br/> J’ai écrit cette fanfiction en <span>deux mois</span>, en juillet-août 2020, à l’occasion d’un <span>concours organisé par le site <span class="Italique">Pokebip</span></span>. Les participants devaient écrire une histoire se déroulant dans l’univers pokemon, en <span>développant au maximum un élément des jeux</span> (objet, personnage, réplique d’un PNJ, etc).
+                                <br/><br/><br/>Vous pouvez lire l’histoire de Dany <a href="https://www.pokebip.com/index.php?phppage=membres/fanfics/affichage-chapitre&c=51363">ici</a>, et celle de Lou-Anne <a href="https://www.pokebip.com/index.php?phppage=membres/fanfics/affichage-chapitre&c=51538">ici</a>.</p>
+                        </div>
+
+                        <div class="col-lg-4 align-self-center DivImage" id="DivImageFanfic"><img id="ImageFanfic" src="Image/LogoFanfic.png"></div>
+                    </div>
+
+
+                </div>
+
+                <div id="Celestin" class="row">
+                    <h2 class="col-lg-12 SousTitre">2 - Mon Tic m’empêche d’avoir des amis</h2>
+                    <div class="row">
+                        <div class="col-lg-8" id="TexteCelestin">
+                            <h4 class="blue">Pitch</h4>
+                            <p><span>Célestin</span> est un <span>jeune homme</span> de 19 ans atteint du <span>syndrome de Firtélamadadostrid</span>.<br/>À cause de ce tic de langage très rare, il ne peut pas s’empêcher de <span>décrire tout ce qui se passe autour de lui</span>, comme s’il était le narrateur d’une histoire.<br/>Cela l’<span>empêche d’avoir une vie sociale</span> normale et lui cause bien d’autres ennuis…</p>
+                            <h4 class="blue">Contexte</h4>
+                            <p>- Court-Métrage réalisé en <span>quelques semaines</span>, en 2019…<br/>- … par une équipe de <span>7 personnes</span>…<br/>- … dans le cadre de la deuxième année de mon <span>DUT MMI</span>.<br/>- J’ai occupé le poste de <span>scénariste, co-chef de projet et acteur</span> (1er rôle).<br/><br/>Notre court-métrage est une <span>parodie de l’émission « Vraiment Vrai »</span>. <br/><br/>Cliquez <a href="https://www.youtube.com/watch?v=Dwyvq12AVc0&t=79s">ici</a> pour visionner le court-métrage.</p>
+                        </div>
+
+                        <div class="col-lg-4 align-self-center DivImage" id="DivImageCelestin"><a href="https://www.youtube.com/watch?v=Dwyvq12AVc0&t=79s"><img id="ImageCelestin" src="Image/Court-M%C3%A9trage.jpg"></a></div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+
+                <div id="titreContact">
+                    <img id="logoContact" src="Image/Logo/Contacts@3x-8.png">
+                    <div id="contact">
+                        <h2 id="ancreContacts" class="troisTitres">Contacts</h2>
+                    </div>
+                    <div class="shape" id="shapeContact"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" id="footerBackground">
+
+            <div class="container">
+
+                <div class="row barrefooter">
+
+                    <div class="col-lg-4 flexible">
+                        <img class="tailleLogoFooter" src="Image/Logo/Mail@3x-8.png">
+                        <p>martin.coudrin@yahoo.fr</p>
+                    </div>
+
+                    <div class="col-lg-4 flexible">
+                        <img class="tailleLogoFooter" src="Image/Logo/Phone@3x-8.png">
+                        <p>06 95 36 61 29</p>
+                    </div>
+
+                    <div class="col-lg-4 flexible">
+                        <img class="tailleLogoFooter" src="Image/Adresse@4x-8.png">
+                        <p>11 rue honteuse Montierchaume
+                            <br/>36 130</p>
+                    </div>
+
+                    <div class="col-lg-4 flexible">
+                        <a href="Image/CV_Martin_Coudrin.pdf">
+                            <img class="tailleLogoFooter" src="Image/Logo_CV@4x-8.png"></a>
+                        <p><a href="Image/CV_Martin_Coudrin.pdf">Mon CV</a></p>
+                    </div>
+
+                    <div id="linkedin" class="col-lg-4 flexible">
+
+                        <a href="https://www.linkedin.com/in/martin-coudrin-646a36158/">
+                           <img class="tailleLogoFooter" src="Image/Logo/Linkedin@3x-8.png"></a>
+                        <p><a href="https://www.linkedin.com/in/martin-coudrin-646a36158/">Linkedin</a></p>
+                    </div>
+
+                </div>
+
+                <div id="mention">
+                    <p>Tous droits réservés - Martin Coudrin</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script>
+        function fermerMenuFerme() {
+            document.getElementById("menuFerme").className = "invisible";
+            ouvreMenuOuvert();
+        }
+
+        function ouvreMenuOuvert() {
+            document.getElementById("menuOuvert").className = "visible";
+        }
+
+        function fermerMenuOuvert() {
+            document.getElementById("menuOuvert").className = "invisible";
+            ouvreMenuFerme();
+        }
+
+        function ouvreMenuFerme() {
+            document.getElementById("menuFerme").className = "visible";
+        }
+
+    </script>
+
+</body>
+
+</html>

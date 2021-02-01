@@ -1,0 +1,547 @@
+@font-face {
+    font-family: "Nintendo";
+    src: url("font/Nintendo_Switch_UI_Font.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Josefin";
+    src: url("font/Josefin_Sans/JosefinSans-Regular.ttf") format("truetype");
+}
+
+body {
+    font-family: "Josefin";
+    color: #313538;
+}
+
+span {
+    font-weight: bold;
+}
+
+.Italique {
+    font-style: italic;
+}
+
+.black {
+    color: #313538;
+}
+
+.blue {
+    color: #0073a0;
+}
+
+.clearBlue {
+    color: #009fe3;
+}
+
+/*---------------HEADER----------------*/
+
+#entete {
+    text-align: center;
+    font-family: "Nintendo";
+    padding: 5% 0;
+    background-color: #e5f1f5;
+}
+
+#entete h1 {
+    color: #0073a0;
+    font-size: 5em;
+}
+
+#entete h2 {
+    color: #313538;
+}
+
+/*---------------SCRIPT----------------*/
+
+.invisible {
+    position: absolute;
+    opacity: 0%;
+}
+
+.visible {
+    position: inherit;
+    opacity: 100%;
+}
+
+/*---------------NAV----------------*/
+
+.auDessus {
+    z-index: 1000;
+}
+
+#menuFerme {
+    background-color: #313538;
+    opacity: 80%;
+    position: fixed;
+    width: 4.5em;
+    height: 4.5em;
+    margin: 0 0 0 -1em;
+    text-align: center;
+    border-radius: 0 5% 35% 0;
+}
+
+#imgMenuFerme {
+    width: 3em;
+    margin: 1em 0 0 0;
+}
+
+#menuOuvert {
+    opacity: 80%;
+    position: fixed;
+    height: 100%;
+}
+
+#imgMenuOuvert {
+    width: 3em;
+    margin: 1em 0 0 0;
+}
+
+#menuOuvertTout {
+    background-color: #313538;
+    border-radius: 0 2em 2em 0;
+    height: 38em;
+    width: 50em;
+    border: black 2px solid;
+    color: #ebebeb;
+}
+
+#menuOuvertTout a {
+    font-size: 1.1em;
+}
+
+#imageCroix {
+    text-align: right;
+    margin: 0 0 3em 0;
+}
+
+.elementMenu {
+    margin: 2em 0;
+    padding: 0.3em 0;
+    box-sizing: border-box;
+    width: 100%;
+    text-decoration: none;
+}
+
+header a {
+    color: #ebebeb;
+    text-decoration: none;
+    display: flex;
+}
+
+.elementMenu:hover {
+    transition: 0.2s;
+    color: #313538;
+}
+
+header a:hover {
+    color: #ebebeb;
+        background-color: #ebebeb;
+
+    text-decoration: none;
+}
+
+/*---------------MAIN----------------*/
+
+#rowPresentation {
+    padding-bottom: 4em;
+}
+
+#phraseAccroche {
+    padding: 4em 0;
+    text-align: center;
+    color: #0073a0;
+    font-size: 1.6em;
+}
+
+#texteAccroche {
+    font-size: 1.2em;
+}
+
+#moiSansAccroche {
+    box-shadow: 0 0 1em #0072a0;
+    padding: 3em 1em;
+    margin-right: 5em;
+    border-radius: 5em;
+}
+
+#Moi {
+    width: 20em;
+}
+
+.shape {
+    background-color: #009fe3;
+    opacity: 30%;
+    position: absolute;
+    z-index: -1;
+}
+
+/*-----Video Game-----*/
+
+#titreVideoGame {
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+    margin: 0 0 2em 0;
+}
+
+#logoVideoGame {
+    margin-left: 1%;
+    width: 7em;
+}
+
+#jeuvideo {
+    padding-left: 1%;
+    font-family: "Nintendo";
+    color: #0073a0;
+}
+
+.troisTitres {
+    font-size: 3em;
+}
+
+#shapeVideoGame {
+    padding: 0.7em 12.6em;
+    margin: 1.7em 0 0 0;
+}
+
+/*-----Board Game-----*/
+
+#titreBoardGame {
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+    padding-top: 5em;
+    margin: 0 0 2em 0;
+}
+
+#logoBoardGame {
+    margin-left: 2%;
+    width: 4.5em;
+}
+
+#jeusociete {
+    padding-left: 1%;
+    font-family: "Nintendo";
+    color: #0073a0;
+}
+
+#jeusociete h2 {
+    font-size: 2.2em;
+}
+
+#shapeBoardGame {
+    padding: 0.7em 15.2em;
+    margin: 1.7em 0 0 0;
+}
+
+/*-----Court-Métrage-----*/
+
+#titreFilm {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    padding-top: 5em;
+    margin: 0 0 2em 0;
+}
+
+#logoFilm {
+    margin: 0 0 1.5em 2%;
+    width: 3.5em;
+}
+
+#film {
+    padding-left: 1%;
+    font-family: "Nintendo";
+    color: #0073a0;
+}
+
+#film h2 {
+    font-size: 2.2em;
+}
+
+#shapeFilm {
+    padding: 0.7em 8.7em;
+    margin: 1.7em 0 0 0;
+}
+
+/*-----Contacts-----*/
+
+#titreContact {
+    display: flex;
+    align-items: center;
+    padding-top: 5em;
+    margin: 0 0 2em 0;
+}
+
+#logoContact {
+    margin: 0 0 0 2em;
+    width: 5em;
+}
+
+#contact {
+    padding-left: 1%;
+    font-family: "Nintendo";
+    color: #0073a0;
+}
+
+#shapeContact {
+    padding: 0.7em 10.2em;
+    margin: 1.7em 0 0 0;
+}
+
+/*------------Réalisations--------------*/
+
+.SousTitre {
+    text-align: center;
+    font-family: "Nintendo";
+    color: #0073a0;
+    font-weight: bold;
+    padding-bottom: 5%;
+
+}
+
+.DivImage {
+    text-align: center;
+}
+
+#ArcheologuesAn3000 {
+    padding: 5%;
+}
+
+#ImageArcheologue {
+    width: 22em;
+}
+
+#PFE {
+    padding: 5%;
+}
+
+#ImagePFE {
+    width: 22em;
+}
+
+#TempleKaji {
+    padding: 5%;
+}
+
+#ImageTempleKaji {
+    width: 22em;
+}
+
+#BorrowedTime {
+    padding: 5%;
+}
+
+#ImageBorrowedTime {
+    width: 22em;
+}
+
+#Fallandaforad {
+    padding: 5%;
+}
+
+#ImageFallandaforad {
+    width: 22em;
+}
+
+#Javascript {
+    padding: 5%;
+}
+
+#ImageJavascript {
+    width: 22em;
+}
+
+#FatesWays {
+    padding: 5%;
+}
+
+#ImageFatesWays {
+    width: 22em;
+}
+
+#OchitaKamigami {
+    padding: 5%;
+}
+
+#ImageOchitaKamigami {
+    width: 22em;
+}
+
+#TimelineInegalite {
+    padding: 5%;
+}
+
+#ImageTimelineInegalite {
+    width: 22em;
+}
+
+#Decroissance {
+    padding: 5%;
+}
+
+#ImageDecroissance {
+    width: 22em;
+}
+
+#Mercantile {
+    padding: 5%;
+}
+
+#ImageMercantile {
+    width: 22em;
+}
+
+#Echecs {
+    padding: 5%;
+}
+
+#ImageEchecs {
+    width: 22em;
+}
+
+#Fanfic {
+    padding: 5%;
+}
+
+#ImageFanfic {
+    width: 22em;
+}
+
+#Celestin {
+    padding: 5%;
+}
+
+#ImageCelestin {
+    width: 22em;
+}
+
+.machin {
+    background-color: #e5f1f5;
+    box-shadow: 0.1em 0.1em 0.5em #0073a0;
+}
+
+/*---------------FOOTER----------------*/
+
+footer {
+    padding-top: 2em;
+}
+
+#footerBackground {
+    background-color: #e5f1f5;
+    padding: 1em;
+    box-shadow: 0.1em 0.1em 0.5em #0073a0;
+}
+
+#linkedin {
+    text-align: center;
+}
+
+
+.flexible {
+    display: flex;
+    align-items: center;
+}
+
+.tailleLogoFooter {
+    margin: 0 1em 1em 0;
+    width: 2em;
+}
+
+
+#mention {
+    text-align: center;
+    color: black;
+    opacity: 50%;
+    padding: 1em 0 0 0;
+}
+
+/*----------MEDIA QUERIES--------------*/
+
+@media screen and (max-width: 1199.98px) {
+
+    #divMoi {
+        text-align: center;
+    }
+
+    #moiSansAccroche {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+
+    #DivImageArcheologue {
+        order: -1;
+        margin: 2em 0;
+    }
+
+    #DivImagePFE {
+        order: -1;
+        margin: 2em 0;
+    }
+
+    #DivImageTempleKaji {
+        order: -1;
+        margin: 2em 0;
+    }
+
+    #DivImageBorrowedTime {
+        order: -1;
+        margin: 2em 0;
+    }
+
+    #DivImageFallandaforad {
+        order: -1;
+        margin: 2em 0;
+    }
+
+    #DivImageFatesWays {
+        order: -1;
+        margin: 2em 0;
+    }
+
+    #DivImageJavascript {
+        order: -1;
+        margin: 2em 0;
+    }
+
+    #DivImageOchitaKamigami {
+        order: -1;
+        margin: 2em 0;
+    }
+
+    #DivImageTimelineInegalite {
+        order: -1;
+        margin: 2em 0;
+    }
+
+    #DivImageDecroissance {
+        order: -1;
+        margin: 2em 0;
+    }
+
+    #DivImageMercantile {
+        order: -1;
+        margin: 2em 0;
+    }
+
+    #DivImageEchecs {
+        order: -1;
+        margin: 2em 0;
+    }
+
+    #DivImageFanfic {
+        order: -1;
+        margin: 2em 0;
+    }
+
+    #DivImageCelestin {
+        order: -1;
+        margin: 2em 0;
+    }
+
+    #linkedin {
+        text-align: inherit;
+    }
+}
