@@ -55,24 +55,28 @@ span {
 
 .invisible {
     position: absolute;
+    z-index: 10;
     opacity: 0%;
 }
 
 .visible {
     position: inherit;
+    z-index: 10;
     opacity: 100%;
 }
 
 /*---------------NAV----------------*/
 
 .auDessus {
-    z-index: 1000;
+    position: absolute;
+    z-index: 10;
 }
 
 #menuFerme {
     background-color: #313538;
     opacity: 80%;
     position: fixed;
+    z-index: 10;
     width: 4.5em;
     height: 4.5em;
     margin: 0 0 0 -1em;
@@ -88,6 +92,7 @@ span {
 #menuOuvert {
     opacity: 80%;
     position: fixed;
+    z-index: 10;
     height: 100%;
 }
 
@@ -135,7 +140,7 @@ header a {
 
 header a:hover {
     color: #ebebeb;
-        background-color: #ebebeb;
+    background-color: #ebebeb;
 
     text-decoration: none;
 }
@@ -384,19 +389,35 @@ header a:hover {
     width: 22em;
 }
 
-#Mercantile {
+#OutilResilience {
     padding: 5%;
 }
 
-#ImageMercantile {
+#SymbioDuo {
+    padding: 5%;
+}
+
+#ImageOutilResilience {
     width: 22em;
 }
 
-#Echecs {
+#ImageSymbioDuo {
+    width: 22em;
+}
+
+#ImageAnemone{
+        width: 10em;
+    }
+
+#ImagePoisson{
+        width: 10em;
+    }
+
+#TripleEthnie {
     padding: 5%;
 }
 
-#ImageEchecs {
+#ImageTripleEthnie {
     width: 22em;
 }
 
@@ -406,6 +427,14 @@ header a:hover {
 
 #ImageFanfic {
     width: 22em;
+}
+
+#StaseMancienne {
+    padding: 5%;
+}
+
+#ImageStaseMancienne {
+    width: 15em;
 }
 
 #Celestin {
@@ -521,17 +550,26 @@ footer {
         margin: 2em 0;
     }
 
-    #DivImageMercantile {
+    #DivImageOutilResilience {
+        order: -1;
+        margin: 2em 0;
+    }
+    #DivImageSymbioDuo {
         order: -1;
         margin: 2em 0;
     }
 
-    #DivImageEchecs {
+    #DivImageTripleEthnie {
         order: -1;
         margin: 2em 0;
     }
 
     #DivImageFanfic {
+        order: -1;
+        margin: 2em 0;
+    }
+    
+    #DivImageStaseMancienne {
         order: -1;
         margin: 2em 0;
     }
