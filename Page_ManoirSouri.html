@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Le Manoir de la Souricière - Martin Coudrin</title>
+    <meta name="#" content="#">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container-fluid">
+            <nav>
+
+                <div id="menuFerme" class="auDessus" onclick="fermerMenuFerme()">
+                    <img id="imgMenuFerme" src="Image/Menu_ferme_gris@4x-8.png">
+                </div>
+
+                <div id="menuOuvert" class="auDessus invisible">
+
+                    <div class="row">
+                        <div id="menuOuvertTout" class="col-3">
+                            <div id="imageCroix" onclick="fermerMenuOuvert()"><img class="elementmMenu" id="imgMenuOuvert" src="Image/Menu_ouvert_blanc@4x-8.png"></div>
+                            <a href="index.html" id="menuPresentation" class="elementMenu" onclick="fermerMenuOuvert()">
+                                Page Principale
+                            </a>
+                            <a href="#ancreGameDesign" id="menuJeuVideo" class="elementMenu" onclick="fermerMenuOuvert()">
+                                Game Design
+                            </a>
+                            <a href="#ancreLevelDesign" id="menuJeuSociete" class="elementMenu" onclick="fermerMenuOuvert()">
+                                Level Design
+                            </a>
+                            <a href="#ancreNarrativeDesign" id="menuEcriture" class="elementMenu" onclick="fermerMenuOuvert()">
+                                Narrative Design
+                            </a>
+                            <a href="#ancreContacts" id="menuContacts" class="elementMenu" onclick="fermerMenuOuvert()">
+                                Contacts
+                            </a>
+                        </div>
+                        <div class="col-9"></div>
+
+                    </div>
+
+                </div>
+
+            </nav>
+            <div id="enteteManoir" class="row">
+
+                <div class="col-lg-12">
+                    <a href="https://geegaz.itch.io/enjmin-doom-p19"><img id="BandeauManoir" src="Image/Jeux_videos/Manoir/Bandeau_Manoir@10x-8.png"></a>
+                </div>
+            </div>
+            <div id="videoManoir" class="row">
+                <div class="col-lg-12 video">
+                    <video width="916" height="515" controls>
+                        <source src="Image/Jeux_videos/Manoir/Walkthrough_Le_Manoir_De_La_Souriciere.mp4"” type=video/ogg>
+                        <source src="/build/videos/arcnet.io(7-sec).mp4" type=video/mp4>
+                    </video>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="mainManoir">
+        <div class="fluid-container">
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div id="phraseAccrocheKBF" class="col-lg-8">
+
+                    <p>Le manoir de la Souricière est vide depuis des années. Où sont ses habitant·es ? Quels événements s’y sont déroulés ? <span>Lisez</span> les documents à votre disposition, <span>résolvez</span> les énigmes et <span>découvrez</span> les sordides secrets du manoir.
+                        <br><br>
+                        Le Manoir de la Souricière est une <span>hack rom</span> du premier Doom, réalisé grâce au logiciel <span>DoomBuilder</span>.
+                    </p>
+
+
+
+                </div>
+                <div class="col-lg-2"></div>
+
+            </div>
+
+
+            <div class="fluid-container machinManoir">
+
+                <div id="PageKBF">
+                    <div class="row">
+                        <div class="col-lg-2"></div>
+                        <div class="col-lg-8" id="TextePageKBF" class="row">
+
+                            <h2 class="blue KBFCenter">Contraintes et Intentions</h2>
+                            <br>
+                            <ul>
+
+                                <li>Jeu réalisé via Doombuilder, un logiciel permettant de créer des hack rom du premier Doom</li>
+                                <li>Jeu d’enquête / énigme</li>
+                                <li>Questionner les conséquences de la vie éternelle</li>
+                            </ul>
+
+                            <br><br>
+
+                            <h2 class="blue KBFCenter">Contexte</h2>
+                            <br>
+                            <ul>
+                                <li>Projet étudiant - CNAM Enjmin</li>
+                                <li>2 mois</li>
+                                <li>En solo</li>
+                                <li>Doombuilder</li>
+                            </ul>
+
+                            <p>Sur ce projet, j’ai exercé les fonctions de <span>Game Designer</span>, <span>Level Designer</span> et <span>Narrative Designer</span>.
+
+                                <br><br>
+
+                            <h2 id="ancreGameDesign" class="blue KBFCenter">Game Design</h2>
+                            <br>
+                            <ul>
+                                <li>Décision de faire un jeu d’enquête et pas un niveau de Doom classique</li>
+
+                                <li>Design des énigmes</li>
+                                <li>Gestion du rythme de la progression et de la découverte de l’histoire</li>
+
+                            </ul>
+
+                            <div class="KBFCenter"><img id="ImageOutilRuneAway" src="Image/Jeux_videos/Manoir/Image_1.png"></div>
+                            <h6>
+                                <p class="center Italique">La principale mécanique de ce jeu est la lecture de document pour enquêter sur la situation du manoir</p>
+                            </h6>
+
+                            <div class="KBFCenter"><img id="ImageOutilRuneAway" src="Image/Jeux_videos/Manoir/Image_2.png"></div>
+                            <h6>
+                                <p class="center Italique">Certains livres de la bibliothèque récèlent des secrets inattendus...</p>
+                            </h6>
+
+
+
+                            <br><br>
+
+                            <h2 id="ancreLevelDesign" class="blue KBFCenter">Level Design</h2>
+                            <br>
+                            <ul>
+                                <li>Design du manoir
+                                </li>
+                                <li>Placement des indices, pièges, passages secrets
+                                </li>
+                            </ul>
+
+                            <div class="KBFCenter"><img id="ImageQueteKBF" src="Image/Jeux_videos/Manoir/Image_3.png"></div>
+                            <h6>
+                                <p class="center Italique">La silhouette du manoir rappelle une tête de souris.<br>Une énigme est basée sur cette architecture particulière. </p>
+                            </h6>
+
+                            <br><br>
+
+                            <h2 id="ancreNarrativeDesign" class="blue KBFCenter">Narrative Design</h2>
+                            <br>
+                            <ul>
+                                <li>Écriture de l’histoire
+                                </li>
+                                <li>Découpage de l’histoire et répartition de chaque morceau dans le manoir (telle information sera divulguée par tel document, caché à tel endroit, etc)
+                                </li>
+                            </ul>
+
+                            <div class="KBFCenter"><img id="ImageQueteKBF" src="Image/Jeux_videos/Manoir/Image_4.png"></div>
+                            <h6>
+                                <p class="center Italique">Le lore et les informations nécessaires à la progression sont disséminés dans les nombreux livres et autres pans de bibliothèque du Manoir</p>
+                            </h6>
+
+
+                        </div>
+                        <div class="col-lg-2"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="footerManoir">
+
+        <div class="container-fluid" id="footerBackgroundManoir">
+
+            <div id="ancreContacts" class="container">
+
+                <div class="row barrefooter">
+
+                    <div class="col-lg-4 flexible">
+                        <img class="tailleLogoFooter" src="Image/Logo/Mail@3x-8.png">
+                        <p>martin.coudrin@yahoo.fr</p>
+                    </div>
+
+                    <div class="col-lg-4 flexible">
+                        <img class="tailleLogoFooter" src="Image/Logo/Phone@3x-8.png">
+                        <p>06 95 36 61 29</p>
+                    </div>
+
+                    <div class="col-lg-4 flexible">
+                        <img class="tailleLogoFooter" src="Image/Adresse@4x-8.png">
+                        <p>Ouvert au déménagement <br />et au télétravail</p>
+                    </div>
+
+                    <div class="col-lg-4 flexible">
+                        <a href="Image/CV_Martin_Coudrin.pdf">
+                            <img class="tailleLogoFooter" src="Image/Logo_CV@4x-8.png"></a>
+                        <p><a href="Image/Martin_Coudrin_CV.pdf">Mon CV</a></p>
+                    </div>
+
+                    <div id="linkedin" class="col-lg-4 flexible">
+
+                        <a href="https://www.linkedin.com/in/martin-coudrin-646a36158/">
+                            <img class="tailleLogoFooter" src="Image/Logo/Linkedin@3x-8.png"></a>
+                        <p><a href="https://www.linkedin.com/in/martin-coudrin-646a36158/">Linkedin</a></p>
+                    </div>
+
+                    <div id="itchio" class="col-lg-4 flexible">
+
+                        <a href="https://itch.io/profile/cryoleaf">
+                            <img class="tailleLogoFooter" src="Image/Logo/Logo_Itchio@10x-8.png"></a>
+                        <p><a href="https://itch.io/profile/cryoleaf">Itchio</a></p>
+                    </div>
+
+                </div>
+
+                <div id="mention">
+                    <p>Tous droits réservés - Martin Coudrin - 2023</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script>
+        function fermerMenuFerme() {
+            document.getElementById("menuFerme").className = "invisible";
+            ouvreMenuOuvert();
+        }
+
+        function ouvreMenuOuvert() {
+            document.getElementById("menuOuvert").className = "visible";
+        }
+
+        function fermerMenuOuvert() {
+            document.getElementById("menuOuvert").className = "invisible";
+            ouvreMenuFerme();
+        }
+
+        function ouvreMenuFerme() {
+            document.getElementById("menuFerme").className = "visible";
+        }
+
+    </script>
+
+</body>
+
+</html>

@@ -21,6 +21,10 @@ span {
     font-style: italic;
 }
 
+.center {
+    text-align: center;
+}
+
 .black {
     color: #313538;
 }
@@ -31,6 +35,10 @@ span {
 
 .clearBlue {
     color: #009fe3;
+}
+
+.noDecoration{
+        text-decoration: none;
 }
 
 /*---------------HEADER----------------*/
@@ -49,6 +57,10 @@ span {
 
 #entete h2 {
     color: #313538;
+}
+
+.video {
+    padding: 0 0 3% 0;
 }
 
 /*---------------SCRIPT----------------*/
@@ -138,10 +150,9 @@ header a {
     color: #313538;
 }
 
-header a:hover {
+header nav a:hover {
     color: #ebebeb;
     background-color: #ebebeb;
-
     text-decoration: none;
 }
 
@@ -163,10 +174,10 @@ header a:hover {
 }
 
 #moiSansAccroche {
-    box-shadow: 0 0 1em #0072a0;
+    box-shadow: 0 0 0.3em #0072a0;
     padding: 3em 1em;
     margin-right: 5em;
-    border-radius: 5em;
+    border-radius: 2em;
 }
 
 #Moi {
@@ -301,20 +312,63 @@ header a:hover {
     font-family: "Nintendo";
     color: #0073a0;
     font-weight: bold;
-    padding-bottom: 5%;
+    padding: 0 0 10% 0;
+}
 
+.SousTitreMemoire {
+    text-align: center;
+    font-family: "Nintendo";
+    color: #0073a0;
+    font-weight: bold;
+    padding: 0 0 3% 0;
+}
+
+.SousTitre2 {
+    text-align: center;
+    font-family: "Nintendo";
+    color: #14477B;
+    font-weight: bold;
+    padding: 2% 0;
+}
+
+.SousTitre2 {
+    transition: transform 0.5s;
+}
+
+.SousTitre2:hover {
+    transform: scale(1.2);
 }
 
 .DivImage {
     text-align: center;
 }
 
-#ArcheologuesAn3000 {
-    padding: 5%;
+.DivLogoItchio {
+    text-align: right;
 }
 
-#ImageArcheologue {
-    width: 22em;
+.troisLogo{
+    padding: 0 5% 0 0;
+}
+
+.logoItchio {
+    padding: 0;
+    width: 3em;
+    transition: transform .5s;
+}
+
+.logoItchio:hover {
+    transform: scale(1.5);
+}
+
+#logoBIC {
+    padding: 0;
+    width: 5em;
+    transition: transform .5s;
+}
+
+#logoBIC:hover {
+    transform: scale(2);
 }
 
 #PFE {
@@ -373,14 +427,6 @@ header a:hover {
     width: 22em;
 }
 
-#TimelineInegalite {
-    padding: 5%;
-}
-
-#ImageTimelineInegalite {
-    width: 22em;
-}
-
 #Decroissance {
     padding: 5%;
 }
@@ -393,25 +439,17 @@ header a:hover {
     padding: 5%;
 }
 
-#SymbioDuo {
-    padding: 5%;
-}
-
 #ImageOutilResilience {
     width: 22em;
 }
 
-#ImageSymbioDuo {
-    width: 22em;
+#ImageAnemone {
+    width: 10em;
 }
 
-#ImageAnemone{
-        width: 10em;
-    }
-
-#ImagePoisson{
-        width: 10em;
-    }
+#ImagePoisson {
+    width: 10em;
+}
 
 #TripleEthnie {
     padding: 5%;
@@ -447,7 +485,494 @@ header a:hover {
 
 .machin {
     background-color: #e5f1f5;
-    box-shadow: 0.1em 0.1em 0.5em #0073a0;
+    box-shadow: 0.05em 0.05em 0.2em #0073a0;
+}
+
+h6 {
+    padding: 2% 0 0 0;
+    color: #FFD58F;
+}
+
+li {
+    padding: 0 0 1% 0;
+}
+
+/*---------------KBF----------------*/
+
+#videoKBF {
+    text-align: center;
+    background-color: #3B252E;
+}
+
+#pageKBFlogoBIC {
+    width: 10em;
+    padding: 10% 0;
+}
+
+#enteteKBF {
+    text-align: center;
+    font-family: "Nintendo";
+    background-color: #3B252E;
+    margin: 0 -10% 0 -10%;
+}
+
+#BandeauKBF {
+    width: 100%;
+}
+
+#mainKBF {
+    background-color: #BEA196;
+}
+
+#footerKBF {
+    background-color: #BEA196;
+}
+
+#KBF {
+    padding: 5%;
+}
+
+#phraseAccrocheKBF {
+    padding: 4em 0;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#ImageKBF {
+    width: 21em;
+}
+
+#PageKBF {
+    padding: 5%;
+}
+
+#ImagePrixKBF {
+    width: 15em;
+}
+
+#ImageOnePageKBF {
+    width: 35em;
+}
+
+#ImageQueteKBF {
+    width: 35em;
+}
+
+#ImageDocuGrpahKBF {
+    width: 25em;
+}
+
+#ImageDocuProgKBF {
+    width: 28em;
+}
+
+#ImageMetricsKBF {
+    width: 28em;
+}
+
+#ImageLevelDesignKBF {
+    width: 35em;
+}
+
+.KBFCenter {
+    text-align: center;
+}
+
+.machinKBF {
+    background-color: #3B252E;
+    box-shadow: 0.05em 0.05em 0.2em #0073a0;
+    color: #FFD54E;
+    font-size: 1.2em;
+}
+
+.machinKBF h4 {
+    color: #EF7D00;
+}
+
+.machinKBF h2 {
+    color: #EF7D00;
+}
+
+/*---------------PUMP IT----------------*/
+#PumpIt {
+    padding: 5%;
+}
+
+#ImagePumpIt {
+    width: 19em;
+}
+
+#entetePumpIt {
+    text-align: center;
+    font-family: "Nintendo";
+    background-color: #473648;
+    margin: 0 -10% 0 -10%;
+}
+
+#BandeauPumpIt {
+    width: 100%;
+}
+
+#videoPumpIt {
+    text-align: center;
+    background-color: #473648;
+    padding: 0 0 5% 0;
+}
+
+#pageKBFlogoBIC {
+    width: 10em;
+    padding: 10% 0;
+}
+
+#mainPumpIt {
+    background-color: #26111E;
+        color: #E9E2BE;
+
+}
+
+#footerPumpIt {
+    background-color: #473648;
+}
+
+.machinPumpIt {
+    background-color: #473648;
+    box-shadow: 0.05em 0.05em 0.2em #0073a0;
+    color: #E9E2BE;
+    font-size: 1.2em;
+}
+
+.machinPumpIt h4 {
+    color: #A83F49;
+}
+
+.machinPumpIt h2 {
+    color: #A83F49;
+}
+
+/*---------------RUNE AWAY----------------*/
+#RuneAway {
+    padding: 5%;
+}
+
+#ImageRuneAway {
+    width: 19em;
+}
+
+#ImageHommeRune {
+    width: 12em;
+}
+
+#ImageOutilRuneAway{
+    width: 30em;
+}
+
+#enteteRuneAway {
+    text-align: center;
+    font-family: "Nintendo";
+    background-color: #FAF3E0;
+    margin: 0 -10% 0 -10%;
+}
+
+#BandeauRuneAway {
+    width: 100%;
+}
+
+#videoRuneAway {
+    text-align: center;
+    background-color: #FAF3E0;
+    padding: 0 0 5% 0;
+}
+
+#footerRuneAway {
+    background-color: #FAF3E0;
+}
+
+.machinRuneAway {
+    background-color: #FAF3E0;
+    box-shadow: 0.05em 0.05em 0.2em #0073a0;
+    color: #AA936B;
+    font-size: 1.2em;
+}
+
+#mainRuneAway {
+    background-color: #AA936B;
+        color: #E9E2BE;
+}
+
+.machinRuneAway h6 {
+    color: #020202;
+}
+
+.machinRuneAway h4 {
+    color: #A83F49;
+}
+
+.machinRuneAway h2 {
+    color: #A83F49;
+}
+
+/*---------------MANOIR SOURI----------------*/
+#ManoirSouri {
+    padding: 5%;
+}
+
+#ImageManoirSouri {
+    width: 22em;
+}
+
+#enteteManoir {
+    text-align: center;
+    font-family: "Nintendo";
+    background-color: #422927;
+    margin: 0 -10% 0 -10%;
+}
+
+#BandeauManoir {
+    width: 100%;
+}
+
+#videoManoir {
+    text-align: center;
+    background-color: #422927;
+    padding: 5% 0 5% 0;
+}
+
+#footerManoir {
+    background-color: #422927;
+}
+
+.machinManoir {
+    background-color: #422927;
+    box-shadow: 0.05em 0.05em 0.2em #0073a0;
+    color: #E9E2BE;
+    font-size: 1.2em;
+}
+
+#mainManoir {
+    background-color: #2B1111;
+        color: #E9E2BE;
+}
+
+.machinManoir h6 {
+    
+}
+
+.machinManoir h4 {
+    color: #FFD200;
+}
+
+.machinManoir h2 {
+    color: #FFD200;
+}
+
+/*---------------TIMELINE----------------*/
+#Timeline {
+    padding: 5%;
+}
+
+#ImageTimeline {
+    width: 20em;
+}
+
+#enteteTimeline {
+    text-align: center;
+    font-family: "Nintendo";
+    background-color: #E4F1F6;
+    margin: 0 -10% 0 -10%;
+}
+
+#BandeauTimeline {
+    width: 100em;
+}
+
+#videoTimeline {
+    text-align: center;
+    background-color: #E4F1F6;
+    padding: 5% 0 2% 0;
+}
+
+#footerTimeline {
+    background-color: #E4F1F6;
+}
+
+.machinTimeline {
+    background-color: #E4F1F6;
+    box-shadow: 0.05em 0.05em 0.2em #0073a0;
+    color: #31353D;
+    font-size: 1.2em;
+}
+
+#mainTimeline {
+    background-color: #FFFFFF;
+        color: #31353D;
+}
+
+.machinTimeline h6 {
+    color: #0D74A1;
+}
+
+.machinTimeline h4 {
+    color: #0D74A1;
+}
+
+.machinTimeline h2 {
+    color: #0D74A1;
+}
+
+/*---------------SYMBIODUO----------------*/
+#SymbioDuo {
+    padding: 5%;
+}
+
+#ImageSymbioDuo {
+    width: 20em;
+}
+
+#ImageAnemonePoisson {
+    width: 28em;
+}
+
+#enteteSymbioDuo {
+    text-align: center;
+    font-family: "Nintendo";
+    background-color: #E4F1F6;
+    margin: 0 -10% 0 -10%;
+}
+
+#BandeauSymbioDuo {
+    width: 100%;
+}
+
+#videoSymbioDuo {
+    text-align: center;
+    background-color: #E4F1F6;
+    padding: 5% 0 2% 0;
+}
+
+#footerSymbioDuo {
+    background-color: #E4F1F6;
+}
+
+.machinSymbioDuo {
+    background-color: #E4F1F6;
+    box-shadow: 0.05em 0.05em 0.2em #0073a0;
+    color: #31353D;
+    font-size: 1.2em;
+}
+
+#mainSymbioDuo {
+    background-color: #FFFFFF;
+        color: #31353D;
+}
+
+.machinSymbioDuo h6 {
+    color: #0D74A1;
+}
+
+.machinSymbioDuo h4 {
+    color: #0D74A1;
+}
+
+.machinSymbioDuo h2 {
+    color: #0D74A1;
+}
+
+h1{
+    color: #0073a0;
+}
+
+
+/*---------------MEMOIRE----------------*/
+#Memoire {
+    padding: 5%;
+}
+
+#ImageMemoire {
+    width: 20em;
+}
+
+#MemoirePB{
+    padding: 0 0 5% 0;
+}
+
+#enteteMemoire {
+    text-align: center;
+    font-family: "Nintendo";
+    background-color: #E4F1F6;
+    margin: 0 -10% 0 -10%;
+}
+
+#footerMemoire {
+    background-color: #E4F1F6;
+}
+
+.machinMemoire {
+    background-color: #E4F1F6;
+    box-shadow: 0.05em 0.05em 0.2em #0073a0;
+    color: #31353D;
+    font-size: 1.2em;
+}
+
+#mainMemoire {
+    background-color: #FFFFFF;
+        color: #31353D;
+}
+
+.machinMemoire h6 {
+    color: #0D74A1;
+}
+
+.machinMemoire h4 {
+    color: #0D74A1;
+}
+
+.machinMemoire h2 {
+    color: #0D74A1;
+}
+
+h1{
+    color: #0073a0;
+}
+
+/*---------------FANFIC----------------*/
+#Fanfic {
+    padding: 5%;
+}
+
+#ImageFanfic {
+    width: 10em;
+}
+
+#TexteFanfic{
+    padding: 0 0 5% 0;
+}
+
+#Promenade {
+    padding: 5%;
+}
+
+#ImagePromenade {
+    width: 25em;
+    padding: 0 0 8% 0;
+}
+
+#TextePromenade{
+}
+
+#Genie {
+    padding: 5%;
+}
+
+#ImageGenie {
+    width: 20em;
+    padding: 0 0 8% 0;
+}
+
+#TexteGenie{
+}
+
+#rowGenie{
+    padding: 5% 0 0 0;
 }
 
 /*---------------FOOTER----------------*/
@@ -459,10 +984,48 @@ footer {
 #footerBackground {
     background-color: #e5f1f5;
     padding: 1em;
-    box-shadow: 0.1em 0.1em 0.5em #0073a0;
+    box-shadow: 0.1em 0.1em 0.3em #0073a0;
+}
+
+#footerBackgroundKBF {
+    background-color: #BEA196;
+    padding: 1em;
+    box-shadow: 0.1em 0.1em 0.3em #BEA196;
+}
+
+#footerBackgroundPumpIt {
+    background-color: #26111E;
+    color: #E9E2BE;
+    padding: 1em;
+    box-shadow: 0.1em 0.1em 0.3em #BEA196;
+}
+
+#footerBackgroundRuneAway {
+    background-color: #AA936B;
+    color: #E9E2BE;
+    padding: 1em;
+    box-shadow: 0.1em 0.1em 0.3em #BEA196;
+}
+
+#footerBackgroundManoir {
+    background-color: #2B1111;
+    color: #E9E2BE;
+    padding: 1em;
+    box-shadow: 0.1em 0.1em 0.3em #2B1111;
+}
+
+#footerBackgroundSymbioDuo {
+    background-color: #FFFFFF;
+    color: #31353D;
+    padding: 1em;
+    box-shadow: 0.1em 0.1em 0.3em #2B1111;
 }
 
 #linkedin {
+    text-align: center;
+}
+
+#itchio {
     text-align: center;
 }
 
@@ -554,6 +1117,7 @@ footer {
         order: -1;
         margin: 2em 0;
     }
+
     #DivImageSymbioDuo {
         order: -1;
         margin: 2em 0;
@@ -568,7 +1132,7 @@ footer {
         order: -1;
         margin: 2em 0;
     }
-    
+
     #DivImageStaseMancienne {
         order: -1;
         margin: 2em 0;
