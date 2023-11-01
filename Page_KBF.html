@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Knight Bar Fight - Martin Coudrin</title>
+    <meta name="#" content="#">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container-fluid">
+            <nav>
+
+                <div id="menuFerme" class="auDessus" onclick="fermerMenuFerme()">
+                    <img id="imgMenuFerme" src="Image/Menu_ferme_gris@4x-8.png">
+                </div>
+
+                <div id="menuOuvert" class="auDessus invisible">
+
+                    <div class="row">
+                        <div id="menuOuvertTout" class="col-3">
+                            <div id="imageCroix" onclick="fermerMenuOuvert()"><img class="elementmMenu" id="imgMenuOuvert" src="Image/Menu_ouvert_blanc@4x-8.png"></div>
+                            <a href="index.html" id="menuPresentation" class="elementMenu" onclick="fermerMenuOuvert()">
+                                Page Principale
+                            </a>
+                            <a href="#ancreGameDesign" id="menuJeuVideo" class="elementMenu" onclick="fermerMenuOuvert()">
+                                Game Design
+                            </a>
+                            <a href="#ancreLevelDesign" id="menuJeuSociete" class="elementMenu" onclick="fermerMenuOuvert()">
+                                Level Design
+                            </a>
+                            <a href="#ancreProduction" id="menuEcriture" class="elementMenu" onclick="fermerMenuOuvert()">
+                                Production
+                            </a>
+                            <a href="#ancreContacts" id="menuContacts" class="elementMenu" onclick="fermerMenuOuvert()">
+                                Contacts
+                            </a>
+                        </div>
+                        <div class="col-9"></div>
+
+                    </div>
+
+                </div>
+
+            </nav>
+            <div id="enteteKBF" class="row">
+
+                <div class="col-lg-12">
+                    <a href="https://adaxxas.itch.io/kbf"><img id="BandeauKBF" src="Image/Jeux_videos/KBF/Bandeau_KBF@10x-8.png"></a>
+                </div>
+            </div>
+            <div id="videoKBF" class="row">
+                <div class="col-lg-9 video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/GvfPRgM11U8?si=VAH951eyEpQgnRLO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="col-lg-1"><a href="https://www.youtube.com/watch?v=9hMYzaGb9qw&t=500s"><img id="pageKBFlogoBIC" src="Image/Logo/BIC2023_Awards_R_e-Sports%20(2).png"></a> </div>
+                <div class="col-lg-2"></div>
+
+            </div>
+        </div>
+    </header>
+
+    <main id="mainKBF">
+        <div class="fluid-container">
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8">
+                    <p id="phraseAccrocheKBF">
+
+                        Incarnez l’<span>écuyer</span> d’un des Quatre Chevaliers et mettez la <span>taverne</span> sens dessus dessous dans ce <span>couch-game</span> en <span>versus</span> pour <span>2 à 4</span> joueur·euses. Battez vos adversaires d’un <span>simple contact avec votre épée</span>, mais prenez garde à ne pas échapper la vôtre des mains car <span>elle vous permet également de vous défendre !</span><br /><br />
+                        Devenez le·a favori·te du public en <span>accomplissant les quêtes</span> qu’il vous propose à chaque round et soyez le·a <span>premier·ère à remporter tous les points !</span></p>
+
+
+                </div>
+                <div class="col-lg-2"></div>
+
+            </div>
+
+
+            <div class="fluid-container machinKBF">
+
+                <div id="PageKBF" class="row">
+                    <div class="row">
+                        <div class="col-lg-2"></div>
+                        <div class="col-lg-8" id="TextePageKBF" class="row">
+
+                            <h2 class="blue KBFCenter">Contraintes et Intentions</h2>
+                            <br>
+                            <ul>
+                                <li>Jeu de <span>combat rapide, nerveux et chaotique</span>
+                                </li>
+                                <li><span>Rejouabilité</span> importante</li>
+                                <li>Permet aux novices de <span>rivaliser avec les plus expérimenté·es</span></li>
+                            </ul>
+
+                            <br><br>
+
+                            <h2 class="blue KBFCenter">Contexte</h2>
+                            <br>
+                            <ul>
+                                <li>Projet de fin de Master 1 - CNAM Enjmin</li>
+                                <li>3 mois</li>
+                                <li>5 personnes</li>
+                                <li>Unity</li>
+                            </ul>
+
+                            <p>Sur ce projet j’ai occupé seul les rôles de <span>Game Designer</span> et <span>Level Designer</span>.</p>
+
+                            <br><br>
+
+                            <h2 class="blue KBFCenter">Prix</h2>
+                            <br>
+                            <p>
+                                Nous avons soumis <span class="Italique">Knight Bar Fight</span> à l’édition 2023 du <span class="Italique">Busan Indie Connect Festival</span> et <span>notre jeu a remporté le prix Excellence e-sport</span> dans la division Rookie.
+                            </p>
+
+                            <div class="KBFCenter"><img id="ImagePrixKBF" src="Image/Jeux_videos/KBF/PrixKBF@10x-8.png"></div>
+                            <h6>
+                                <p class="center Italique">Trophée exposé dans une vitrine de l'Enjmin</p>
+                            </h6>
+
+                            <br><br>
+
+                            <h2 id="ancreGameDesign" class="blue KBFCenter">Game Design</h2>
+                            <br>
+                            <ul>
+                                <li>Définition des intentions et piliers du jeu en cohérence avec le pitch initial</li>
+                            </ul>
+
+                            <div class="KBFCenter"><img id="ImageOnePageKBF" src="Image/Jeux_videos/KBF/OnePage.png"></div>
+                            <h6>
+                                <p class="center Italique">One Page Design Document</p>
+                            </h6>
+
+                            <ul>
+                                <li>Design du character control et élaboration d’un game feel agréable</li>
+                                <li>Design des quêtes</li>
+                            </ul>
+
+                            <div class="KBFCenter"><img id="ImageQueteKBF" src="Image/Jeux_videos/KBF/Quetes.png"></div>
+                            <h6>
+                                <p class="center Italique">Besoins motivant l'existence des quêtes</p>
+                            </h6>
+
+
+                            <ul>
+                                <li>Design de l’onboarding</li>
+                                <li>Élaboration d’une <span>documentation précise</span> concernant chacune des features pour <span>communiquer mes décisions</span> et faciliter le travail de l’équipe, <span>en m’adaptant à chaque fois à la spécialité</span> de ma·on lecteur·ice</li>
+                            </ul>
+
+
+                            <div class="row">
+                                <div class="col-lg-6"><img id="ImageDocuGrpahKBF" src="Image/Jeux_videos/KBF/DocuGraph.png">
+                                </div>
+                                <div class="col-lg-6"><img id="ImageDocuProgKBF" src="Image/Jeux_videos/KBF/DocuProg2@10x-8.png">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6 KBFCenter">
+                                    <h6>
+                                        <p class="center Italique">Mockup de Level Designer à destination de la Graphiste, pour faciliter le Level Art</p>
+                                    </h6>
+                                </div>
+                                <div class="col-lg-6 KBFCenter">
+                                    <h6>
+                                        <p class="center Italique">Tableau à destination du Programmeur expliquant le comportement des épées</p>
+                                    </h6>
+                                </div>
+                            </div>
+
+                            <br><br>
+
+                            <h2 id="ancreLevelDesign" class="blue KBFCenter">Level Design</h2>
+                            <br>
+                            <ul>
+                                <li>Élaboration des metrics
+                                </li>
+                            </ul>
+
+                            <div class="KBFCenter"><img id="ImageMetricsKBF" src="Image/Jeux_videos/KBF/Metrics@10x-8.png"></div>
+                            <h6>
+                                <p class="center Italique">Première itération des Metrics du jeu</p>
+                            </h6>
+
+                            <ul>
+                                <li>Design de 7 niveaux selon nos intentions (onboarding, mettre en valeur une mécanique, etc)</li>
+                            </ul>
+
+                            <div class="KBFCenter"><img id="ImageLevelDesignKBF" src="Image/Jeux_videos/KBF/LevelDesignIntentions.png"></div>
+                            <h6>
+                                <p class="center Italique">Exemple d'intention derrière une décision Level Design</p>
+                            </h6>
+
+                            <br><br>
+
+                            <h2 id="ancreProduction" class="blue KBFCenter">Production</h2>
+                            <br>
+                            <ul>
+                                <li>Nous avons fait le choix de travailler par <span>sprints successifs</span> d’une semaine afin de toujours avoir un prototype jouable. Cela nous a permis de <span>réaliser le plus tôt et le plus souvent possible des playtests</span>. Nous pouvions ainsi <span>ajuster nos choix</span> et prendre des décisions pertinentes <span>en fonction de ces retours</span>.</li>
+
+                                <li>Nous utilisions <span>Notion</span> pour centraliser nos documents et informations ainsi que <span>Monday</span> pour organiser nos sprints.</li>
+
+                            </ul>
+
+
+                        </div>
+                        <div class="col-lg-2"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="footerKBF">
+
+        <div class="container-fluid" id="footerBackgroundKBF">
+
+            <div id="ancreContacts" class="container">
+
+                <div class="row barrefooter">
+
+                    <div class="col-lg-4 flexible">
+                        <img class="tailleLogoFooter" src="Image/Logo/Mail@3x-8.png">
+                        <p>martin.coudrin@yahoo.fr</p>
+                    </div>
+
+                    <div class="col-lg-4 flexible">
+                        <img class="tailleLogoFooter" src="Image/Logo/Phone@3x-8.png">
+                        <p>06 95 36 61 29</p>
+                    </div>
+
+                    <div class="col-lg-4 flexible">
+                        <img class="tailleLogoFooter" src="Image/Adresse@4x-8.png">
+                        <p>Ouvert au déménagement <br />et au télétravail</p>
+                    </div>
+
+                    <div class="col-lg-4 flexible">
+                        <a href="Image/CV_Martin_Coudrin.pdf">
+                            <img class="tailleLogoFooter" src="Image/Logo_CV@4x-8.png"></a>
+                        <p><a href="Image/Martin_Coudrin_CV.pdf">Mon CV</a></p>
+                    </div>
+
+                    <div id="linkedin" class="col-lg-4 flexible">
+
+                        <a href="https://www.linkedin.com/in/martin-coudrin-646a36158/">
+                            <img class="tailleLogoFooter" src="Image/Logo/Linkedin@3x-8.png"></a>
+                        <p><a href="https://www.linkedin.com/in/martin-coudrin-646a36158/">Linkedin</a></p>
+                    </div>
+
+                    <div id="itchio" class="col-lg-4 flexible">
+
+                        <a href="https://itch.io/profile/cryoleaf">
+                            <img class="tailleLogoFooter" src="Image/Logo/Logo_Itchio@10x-8.png"></a>
+                        <p><a href="https://itch.io/profile/cryoleaf">Itchio</a></p>
+                    </div>
+
+                </div>
+
+                <div id="mention">
+                    <p>Tous droits réservés - Martin Coudrin - 2023</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script>
+        function fermerMenuFerme() {
+            document.getElementById("menuFerme").className = "invisible";
+            ouvreMenuOuvert();
+        }
+
+        function ouvreMenuOuvert() {
+            document.getElementById("menuOuvert").className = "visible";
+        }
+
+        function fermerMenuOuvert() {
+            document.getElementById("menuOuvert").className = "invisible";
+            ouvreMenuFerme();
+        }
+
+        function ouvreMenuFerme() {
+            document.getElementById("menuFerme").className = "visible";
+        }
+
+    </script>
+
+</body>
+
+</html>
